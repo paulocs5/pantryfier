@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { firebaseConfig  } from "@/firebase";   // Readt fire was not supported, we stick with the google provider
+import { firebaseConfig  } from "@/app/firebase";   // Readt fire was not supported, we stick with the google provider
 
 const inter = Inter({ subsets: ["latin"] });
 

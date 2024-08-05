@@ -1,6 +1,6 @@
 'use client'
 import { Box, Stack, Typography, Button, Modal, TextField } from "@mui/material";
-import { firestore } from "@/firebase";
+import { firestore } from "@/app/firebase";
 import { collection, getDocs, query, doc, setDoc, deleteDoc, getDoc, count  } from "firebase/firestore";
 import { useEffect, useState } from 'react';
 import IconButton from '@mui/material/IconButton';
